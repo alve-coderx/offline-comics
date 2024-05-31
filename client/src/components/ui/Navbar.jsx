@@ -5,15 +5,16 @@ import Search from "./Search";
 import {
   Bars3Icon,
   ChevronDownIcon,
+  ShoppingBagIcon,
   ShoppingCartIcon,
   Squares2X2Icon,
 } from "@heroicons/react/24/outline";
 import ModLink from "./ModLink";
 import Link from "next/link";
 import FlexBox from "./FlexBox";
-import { routes } from "@/utils/routes";
 import TextBody from "./TextBody";
 import { usePathname } from "next/navigation";
+import HeaderWrapper from "@/wrapper/HeaderWrapper";
 
 const Navbar = ({ setNavigationbar }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -21,10 +22,12 @@ const Navbar = ({ setNavigationbar }) => {
   const naviagations = [
     { path: "/", name: "Home" },
     { path: "/shop", name: "Shop" },
+    { path: "/contact", name: "Contact" },
+    { path: "/blog", name: "Blog" },
   ];
   return (
-    <header>
-      <nav className="border-b justify-between shadow-sm py-2 px-2 ">
+    <HeaderWrapper>
+      <nav className="select-none bg-[#F2F4F7] justify-between shadow-sm border-b shadow-md py-3 px-2 ">
         <div className="max-w-[1250px] mx-auto flex items-center justify-between gap-10">
           <Bars3Icon
             className="md:hidden block"
@@ -55,34 +58,38 @@ const Navbar = ({ setNavigationbar }) => {
               />
             </div>
           </div>
-          <FlexBox className="gap-4 md:flex hidden">
-            {naviagations?.map((item, index) => (
-              <Link href={item.path} key={index}>
-                <TextBody
-                  text={item.name}
-                  className={`${
-                    currentPath === item?.path ? "text-primary" : "text-[#222]"
-                  } font-[600] uppercase`}
-                />
-              </Link>
-            ))}
+          <FlexBox className="gap-6">
+            <FlexBox className="gap-4 md:flex hidden">
+              {naviagations?.map((item, index) => (
+                <Link href={item.path} key={index}>
+                  <TextBody
+                    text={item.name}
+                    className={`${
+                      currentPath === item?.path
+                        ? "text-primary border-b-2 "
+                        : "text-[#222] "
+                    } font-[600] uppercase hover:border-b-2 border-primary `}
+                  />
+                </Link>
+              ))}
+            </FlexBox>
+            <FlexBox className="gap-4 ">
+              <Search />
+              <div>
+                <Link href="/cart">
+                  <ShoppingBagIcon width={25} />
+                </Link>
+              </div>
+              <div className="md:flex hidden items-center justify-center gap-1">
+                <ModLink label="লগইন" href="/signin" />
+                <span>/</span>
+                <ModLink label="রেজিস্টার" href="/signup" />
+              </div>
+            </FlexBox>
           </FlexBox>
-          <div className="flex items-center gap-4">
-            <Search />
-            <div>
-              <Link href="/cart">
-                <ShoppingCartIcon width={25} />
-              </Link>
-            </div>
-            <div className="md:flex hidden items-center justify-center gap-1">
-              <ModLink label="লগইন" href="/signin" />
-              <span>/</span>
-              <ModLink label="রেজিস্টার" href="/signup" />
-            </div>
-          </div>
         </div>
       </nav>
-    </header>
+    </HeaderWrapper>
   );
 };
 

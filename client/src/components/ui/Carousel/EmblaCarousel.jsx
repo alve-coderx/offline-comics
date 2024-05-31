@@ -25,7 +25,7 @@ const EmblaCarousel = (props) => {
   } = usePrevNextButtons(emblaApi);
 
   return (
-    <section className="embla py-2 select-none max-w-[1250px] mx-auto">
+    <section className="embla py-2 select-none max-w-[1250px]  mx-auto">
       <div className="relative">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container">
@@ -33,7 +33,7 @@ const EmblaCarousel = (props) => {
               <div key={index} className="embla__slide">
                 <img
                   src={banner}
-                  className="max-h-[470px] md:object-cover w-full rounded-lg shadow-lg border"
+                  className="max-h-[470px] md:object-cover w-full rounded-smv border shadow-lg "
                 />
               </div>
             ))}

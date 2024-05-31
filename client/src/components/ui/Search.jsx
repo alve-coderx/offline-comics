@@ -14,13 +14,11 @@ const Search = () => {
 
   return (
     <div className="relative w-full md:block hidden">
-      <IconButton
+      <MagnifyingGlassIcon
         onClick={() => setShowModal(true)}
-        size="sm"
-        className="rounded-full bg-primary"
-      >
-        <MagnifyingGlassIcon strokeWidth={2} width={20} />
-      </IconButton>
+        strokeWidth={2}
+        width={25}
+      />
       <Dialog
         className="rounded"
         size="xs"
@@ -32,7 +30,11 @@ const Search = () => {
         </DialogHeader>
         <DialogBody>
           <div className="flex items-center justify-center ">
-            <img src="./usericon.png" alt="searchGIF" className="w-32 rounded-full" />
+            <img
+              src="./usericon.png"
+              alt="searchGIF"
+              className="w-32 rounded-full"
+            />
           </div>
           {/* {data?.products?.length > 0 ? (
             <div className="grid md:grid-cols-2 grid-cols-2 gap-2">

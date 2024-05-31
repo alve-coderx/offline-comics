@@ -5,9 +5,11 @@ import React from "react";
 
 const StaticBanner = () => {
   return (
+    <section className="max-w-[1250px] mx-auto">
       <section className="grid md:grid-cols-2 gap-4 grid-cols-1 justify-items-center py-5 ">
         {StaticBanners?.map((item, index) => (
           <Image
+            key={index}
             src={item}
             alt="item"
             width={576}
@@ -16,6 +18,7 @@ const StaticBanner = () => {
           />
         ))}
       </section>
+    </section>
   );
 };
 

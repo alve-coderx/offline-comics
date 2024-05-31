@@ -1,22 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+  scroll-behavior: smooth;
+}
 
 .underlined {
-    /*   background: red; */
-    position: relative;
-  }
-  
-  .underline-clip:after {
-    content: "";
-    position: absolute;
-    top: 95%;
-    width: 150%;
-    aspect-ratio: 3 / 1;
-    left: 50%;
-    transform: translate(-50%, 0);
-    border-radius: 50%;
-    border: 6px solid;
-    /* Use a clip-path to hide and show the bits you want */
-    clip-path: polygon(0 0, 50% 50%, 100% 0);
-  }
+  /*   background: red; */
+  position: relative;
+}
+
+.underline-clip:after {
+  content: "";
+  position: absolute;
+  top: 95%;
+  width: 150%;
+  aspect-ratio: 3 / 1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  border: 6px solid;
+  /* Use a clip-path to hide and show the bits you want */
+  clip-path: polygon(0 0, 50% 50%, 100% 0);
+}

@@ -15,7 +15,7 @@ const books = [
     genre: "Classics",
     discountrate: 0.2,
     discountprice: 12.79,
-    image: "/random1.webp",
+    image: "/book1.jpg",
   },
   {
     name: "র্যান্ডম বই শিরোনাম ২",
@@ -27,7 +27,7 @@ const books = [
     genre: "Horror",
     discountrate: 0.1,
     discountprice: 9.89,
-    image: "/random2.jpeg",
+    image: "/book2.jpg",
   },
   {
     name: "র্যান্ডম বই শিরোনাম ৩",
@@ -39,7 +39,7 @@ const books = [
     genre: "Detective",
     discountrate: 0.15,
     discountprice: 11.04,
-    image: "/random3.webp",
+    image: "/book1.jpg",
   },
   {
     name: "র্যান্ডম বই শিরোনাম ৪",
@@ -51,7 +51,7 @@ const books = [
     genre: "Thriller",
     discountrate: 0.05,
     discountprice: 8.54,
-    image: "/random4.webp",
+    image: "/book2.jpg",
   },
   {
     name: "র্যান্ডম বই শিরোনাম ৫",
@@ -63,7 +63,7 @@ const books = [
     genre: "Romantic",
     discountrate: 0.25,
     discountprice: 15.74,
-    image: "/random5.webp",
+    image: "/book3.jpg",
   },
   {
     name: "র্যান্ডম বই শিরোনাম ৫",
@@ -75,7 +75,7 @@ const books = [
     genre: "Romantic",
     discountrate: 0.25,
     discountprice: 15.74,
-    image: "/random5.webp",
+    image: "/book4.jpg",
   },
   {
     name: "র্যান্ডম বই শিরোনাম ৫",
@@ -87,7 +87,7 @@ const books = [
     genre: "Romantic",
     discountrate: 0.25,
     discountprice: 15.74,
-    image: "/random5.webp",
+    image: "/book5.jpg",
   },
   {
     name: "র্যান্ডম বই শিরোনাম ৫",
@@ -99,7 +99,7 @@ const books = [
     genre: "Romantic",
     discountrate: 0.25,
     discountprice: 15.74,
-    image: "/random5.webp",
+    image: "/book6.jpg",
   },
 ];
 

@@ -8,7 +8,7 @@
       "tag": "Classic",
       "discountrate": 0.1,
       "discountprice": 9.89,
-      "image": "/book.webp"
+      "image": "/book1.jpg"
     },
     {
       "name": "র্যান্ডম বই শিরোনাম ১",
@@ -19,7 +19,7 @@
       "tag": "কল্পকাহিনী",
       "discountrate": 0.1,
       "discountprice": 9.89,
-      "image": "/random1.webp"
+      "image": "/book2.jpg"
     },
     {
       "name": "র্যান্ডম বই শিরোনাম ২",
@@ -30,7 +30,7 @@
       "tag": "অকল্পকাহিনী",
       "discountrate": 0.1,
       "discountprice": 9.89,
-      "image": "/random2.jpeg"
+      "image": "/book3.jpg"
     },
     {
       "name": "র্যান্ডম বই শিরোনাম ৩",
@@ -41,7 +41,7 @@
       "tag": "জীবনী",
       "discountrate": 0.1,
       "discountprice": 9.89,
-      "image": "/random3.webp"
+      "image": "/book4.jpg"
     },
     {
       "name": "র্যান্ডম বই শিরোনাম ৪",
@@ -52,7 +52,7 @@
       "tag": "বিজ্ঞান",
       "discountrate": 0.1,
       "discountprice": 350,
-      "image": "/random4.webp"
+      "image": "/book5.jpg"
     },
     {
       "name": "র্যান্ডম বই শিরোনাম ৫",
@@ -63,7 +63,7 @@
       "tag": "শিক্ষা",
       "discountrate": 0.1,
       "discountprice": 9.89,
-      "image": "/random5.webp"
+      "image": "/book6.jpg"
     }
   ]
   

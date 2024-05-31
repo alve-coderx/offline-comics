@@ -1,14 +1,13 @@
-import { Poppins, Jost, Hind_Siliguri } from "next/font/google";
+import {  Jost, Hind_Siliguri } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import AuthWrapper from "@/wrapper/AuthWrapper";
 import TanstackWrapper from "@/wrapper/TanstackWrapper";
 
-// Define the font subsets and weights for Poppins
-const poppins = Poppins({
+const jost = Jost({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-poppins",
+  variable: "--font-jost",
 });
 const siliguri = Hind_Siliguri({
   subsets: ["latin"],
@@ -25,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${siliguri.variable} font-poppins `}
+        className={`${jost.variable} ${siliguri.variable} font-jost `}
       >
         <Toaster richColors />
         <TanstackWrapper>

@@ -6,12 +6,12 @@ export const bookDetails = {
   discount_price: 12.45,
   rating: 4.8,
   images: [
-    "/book.webp",
-    "/random1.webp",
-    "/random2.jpeg",
-    "/random3.webp",
-    "/random4.webp",
-    "/random5.webp",
+    "/book1.jpg",
+    "/book2.jpg",
+    "/book3.jpg",
+    "/book4.jpg",
+    "/book5.jpg",
+    "/book6.jpg",
   ],
   short_description:
     "A captivating tale of magic and adventure in an enchanted forest. A mesmerizing tale that captivated me from the first page. The illustrations are breathtaking!",

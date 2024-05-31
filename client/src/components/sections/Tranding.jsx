@@ -8,14 +8,18 @@ const Tranding = () => {
       <div className="flex items-center justify-center pb-4">
         <SubTitle text="Trending Heros!" />
       </div>
-      <div className="grid md:grid-cols-9 grid-cols-3 gap-2 py-2">
+      <div className="grid md:grid-cols-9 grid-cols-3 gap-1 py-2">
         {tranding?.map((item, index) => (
           <div
             key={index}
-            className="border p-2 rounded bg-gray-100 flex items-center gap-2 flex-col justify-center"
+            className="p-1.5 border bg-[#FFF8F2] cursor-pointer hover:scale-110 hover transition-all transform-gpu duration-400 drop-shadow-sm flex items-center gap-4 flex-col justify-center"
           >
-            <img src="/noimage.png" alt="image" className="w-24 h-24 select-none"/>
-            <spna className="text-xs text-center">{item?.name}</spna>
+            <img
+              src={item?.image}
+              alt="image"
+              className="w-24 h-24 select-none"
+            />
+            <spna className="text-sm font-[450] font-siliguri  text-center">{item?.name}</spna>
           </div>
         ))}
       </div>

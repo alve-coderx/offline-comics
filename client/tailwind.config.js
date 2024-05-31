@@ -28,7 +28,7 @@ module.exports = withMT({
     },
     extend: {
       fontFamily: {
-        poppins: ["var(--font-poppins)", ...fontFamily.sans],
+        jost: ["var(--font-jost)", ...fontFamily.sans],
         siliguri: ["var(--font-siliguri)", ...fontFamily.sans],
       },
       colors: {

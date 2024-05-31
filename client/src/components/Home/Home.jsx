@@ -13,11 +13,13 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-5">
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-      <NewArrivals />
-      <Tranding />
+    <div className="flex pb-16 flex-col gap-5">
+      <div>
+        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+        <NewArrivals />
+      </div>
       <CategorySlide />
+      <Tranding />
       <StaticBanner />
       <CategoryProducts />
     </div>

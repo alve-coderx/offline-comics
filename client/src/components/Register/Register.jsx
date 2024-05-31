@@ -2,14 +2,14 @@ import React from "react";
 import SubTitle from "../ui/SubTitle";
 import TextBody from "../ui/TextBody";
 import ModTextFeild from "../ui/ModTextFeild";
-import { Button } from "@/components/elements";
 import Image from "next/image";
 import FlexBox from "../ui/FlexBox";
 import ModLink from "../ui/ModLink";
+import Button from "../ui/shared/Button";
 
 const Register = () => {
   return (
-    <section className="grid grid-cols-2 shadow-xl min-h-[70vh] max-w-[40rem] mx-auto py-4">
+    <section className="grid md:grid-cols-2 grid-cols-1 shadow-xl min-h-[70vh] max-w-[40rem] mx-auto py-4">
       <div className="bg-gray-100 flex border p-3 flex-col h-full justify-around">
         <div className="text-center">
           <SubTitle text="Offline Comics" />
@@ -32,7 +32,7 @@ const Register = () => {
           <ModLink label="লগইন" href="/signin" />
         </FlexBox>
       </div>
-      <Image src="/login.png" alt="login" width={400} height={600} />
+      <Image src="/login.png" alt="login" className="md:block hidden" width={400} height={600} />
     </section>
   );
 };

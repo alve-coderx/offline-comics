@@ -1,38 +1,38 @@
 [
   {
     "name": "বিশ্বজুড়ের পরিপ্রেক্ষিত",
-    "image": "/demo.jpg"
+    "image": "/hero1.png"
   },
   {
     "name": "সাহসিক সাংঘর্ষ",
-    "image": "/demo.jpg"
+    "image": "/hero2.png"
   },
   {
     "name": "সমুদ্রের সন্ধানে",
-    "image": "/demo.jpg"
+    "image": "/hero3.png"
   },
   {
     "name": "অজানা মহাদেশ",
-    "image": "/demo.jpg"
+    "image": "/hero4.png"
   },
   {
     "name": "স্বপ্নের অভিযান",
-    "image": "/demo.jpg"
+    "image": "/hero5.png"
   },
   {
     "name": "আগ্নেয় সম্প্রতি",
-    "image": "/demo.jpg"
+    "image": "/hero6.png"
   },
   {
     "name": "পরিচালকের প্রতিশ্রুতি",
-    "image": "/demo.jpg"
+    "image": "/hero7.png"
   },
   {
     "name": "অদৃশ্য আকাঙ্ক্ষা",
-    "image": "/demo.jpg"
+    "image": "/hero8.png"
   },
   {
     "name": "সূর্যের আগুনবীণা",
-    "image": "/demo.jpg"
+    "image": "/hero9.png"
   }
 ]
