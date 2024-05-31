@@ -18,7 +18,7 @@ import Button from "../ui/shared/Button";
 const Checkoutform = () => {
   const deleteItem = useDeleteCartItem();
   const { data: cartItems } = useCart();
-  let storedUID = localStorage.getItem("uid"); // Try to get UID from localStorage
+  // let storedUID = window?.localStorage.getItem("uid"); // Try to get UID from localStorage
   const [selectedValue, setSelectedValue] = useState(50);
   const [shippingFree, setShippingFree] = useState(false);
   const router = useRouter()
@@ -88,7 +88,7 @@ const Checkoutform = () => {
     // };
     // createOrder.mutateAsync(userorder);
     router.push("/order-success")
-    localStorage.removeItem("cartItems");
+    // localStorage.removeItem("cartItems");
   };
 
   useEffect(() => {

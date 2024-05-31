@@ -1,5 +1,5 @@
 // src/components/BookList.js
-import React from "react";
+import React, { Suspense } from "react";
 import ProductCard from "../ui/ProductCard";
 import TextBody from "../ui/TextBody";
 import Image from "next/image";
@@ -46,7 +46,9 @@ const BookList = ({ books, keyWords, selectedFilters, onFilterChange }) => {
           </div>
         )}
       </div>
-      <ModPagination totalPages={10}/>
+      <Suspense fallback={"Loading...."}>
+        <ModPagination totalPages={10} />
+      </Suspense>
     </div>
   );
 };
