@@ -1,0 +1,69 @@
+[
+    {
+      "name": "যেমন ছিলেন তিনি ﷺ (দুই খণ্ড) মুহাম্মাদ সালেহ আল মুনাজ্জিদ",
+      "author_name": "মুহাম্মাদ সালেহ আল মুনাজ্জিদ",
+      "publication": "রুহামা পাবলিকেশন",
+      "rating": 4.2,
+      "price": 10.99,
+      "tag": "Classic",
+      "discountrate": 0.1,
+      "discountprice": 9.89,
+      "image": "/book.webp"
+    },
+    {
+      "name": "র্যান্ডম বই শিরোনাম ১",
+      "author_name": "লেখক ১",
+      "publication": "প্রকাশনা ১",
+      "rating": 4.2,
+      "price": 10.99,
+      "tag": "কল্পকাহিনী",
+      "discountrate": 0.1,
+      "discountprice": 9.89,
+      "image": "/random1.webp"
+    },
+    {
+      "name": "র্যান্ডম বই শিরোনাম ২",
+      "author_name": "লেখক ২",
+      "publication": "প্রকাশনা ২",
+      "rating": 4.2,
+      "price": 10.99,
+      "tag": "অকল্পকাহিনী",
+      "discountrate": 0.1,
+      "discountprice": 9.89,
+      "image": "/random2.jpeg"
+    },
+    {
+      "name": "র্যান্ডম বই শিরোনাম ৩",
+      "author_name": "লেখক ৩",
+      "publication": "প্রকাশনা ৩",
+      "rating": 3,
+      "price": 10.99,
+      "tag": "জীবনী",
+      "discountrate": 0.1,
+      "discountprice": 9.89,
+      "image": "/random3.webp"
+    },
+    {
+      "name": "র্যান্ডম বই শিরোনাম ৪",
+      "author_name": "লেখক ৪",
+      "publication": "প্রকাশনা ৪",
+      "rating": 4.2,
+      "price": 400,
+      "tag": "বিজ্ঞান",
+      "discountrate": 0.1,
+      "discountprice": 350,
+      "image": "/random4.webp"
+    },
+    {
+      "name": "র্যান্ডম বই শিরোনাম ৫",
+      "author_name": "লেখক ৫",
+      "publication": "প্রকাশনা ৫",
+      "rating": 4.2,
+      "price": 10.99,
+      "tag": "শিক্ষা",
+      "discountrate": 0.1,
+      "discountprice": 9.89,
+      "image": "/random5.webp"
+    }
+  ]
+  

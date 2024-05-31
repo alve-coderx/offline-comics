@@ -1,0 +1,36 @@
+.category_embla {
+  --slide-height: 19rem;
+  --slide-spacing: 1rem;
+}
+
+.category_embla__viewport {
+  overflow: hidden;
+}
+
+.category_embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.category_embla__slide {
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}
+
+.category_embla__button:disabled {
+  color: rgb(192, 192, 192);
+}
+
+.category_embla__button__svg {
+  width: 35%;
+  height: 35%;
+}
+
+.category_embla__selected-snap-display {
+  justify-self: flex-end;
+  align-self: center;
+  color: rgb(116, 109, 118);
+  font-weight: 600;
+}
